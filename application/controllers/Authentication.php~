@@ -1,0 +1,14 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Authentication extends CI_Controller
+{
+    function __contruct(){
+        // TODO: talver usar helper url na inicialização do server seja uma boa ideia
+        $this->laod->helper('url');
+    }
+    public function index(){
+        echo "AUTH<br>";
+    }
+}
+?>
