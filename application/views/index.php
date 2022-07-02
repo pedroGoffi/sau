@@ -1,11 +1,12 @@
+<!-- NOTA: Talvez mudar o nome deste arquivo seja uma boa ideia -->
 <!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css\bootstrap.min.css">
-    <script src="js\jquery-3.6.0.min.js"></script>
-    <script src="js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css') ?>">
+    <script src="<? php echo base_url('assets/js/jquery-3.6.0.min.js') ?>"></script>
+    <script src="<?php echo base_url('assets/js/bootstrap.min.js') ?>"></script>
 
     <title>Document</title>
 </head>
@@ -122,37 +123,37 @@
                     <div class="container">
                       <ul>
                         <a class="navbar-brand" href="#1">
-                        <img src="img\person-plus-fill(1).svg" alt="Novo paciente" width="40" height="40">
+                        <img src="<?php echo base_url('assets/img/person-plus-fill(1).svg') ?>" alt="Novo paciente" width="40" height="40">
                       </a>
                       <a class="navbar-brand" href="#10">
-                        <img src="img\journal-plus.svg" alt="Nova Consulta" width="35" height="35">
+                        <img src="<?php echo base_url('assets/img/journal-plus.svg')?>" alt="Nova Consulta" width="35" height="35">
                       </a>
                       <a class="navbar-brand" href="#2" style="text-align:left;margin-left: 10px;">
-                        <img src="img\journal-bookmark-fill.svg" alt="Agenda" width="35" height="35">
+                        <img src="<?php echo base_url('assets/img/journal-bookmark-fill.svg')?>" alt="Agenda" width="35" height="35">
                       </a>
                       <a class="navbar-brand" href="#3" style="text-align:left;margin-left: 10px;">
-                        <img src="img\estetoscopio.svg" alt="Anamnese" width="40" height="40">
+                        <img src="<?php echo base_url('assets/img/estetoscopio.svg')?>" alt="Anamnese" width="40" height="40">
                       </a>
                       <a class="navbar-brand" href="#4" style="text-align:left;margin-left: 10px;">
-                        <img src="img\arrow-repeat.svg" alt="Retorno" width="40" height="40">
+                        <img src="<?php echo base_url('assets/img/arrow-repeat.svg')?>" alt="Retorno" width="40" height="40">
                       </a>
                       <a class="navbar-brand" href="#5" style="text-align:left;margin-left: 10px;">
-                        <img src="img\eyeglasses.svg" alt="Receita de Óculus" width="40" height="40">
+                        <img src="<?php echo base_url('assets/img/eyeglasses.svg')?>" alt="Receita de Óculus" width="40" height="40">
                       </a>
                       <a class="navbar-brand" href="#5" style="text-align:left;margin-left: 10px;">
-                        <img src="img\pencil-square.svg" alt="Prescrições" width="35" height="35">
+                        <img src="<?php echo base_url('assets/img/pencil-square.svg')?>" alt="Prescrições" width="35" height="35">
                       </a>
                       <a class="navbar-brand" href="#5" style="text-align:left;margin-left: 10px;">
-                        <img src="img\clipboard2-pulse.svg" alt="Laudos" width="35" height="35">
+                        <img src="<?php echo base_url('assets/img/clipboard2-pulse.svg') ?>" alt="Laudos" width="35" height="35">
                       </a>
                       <a class="navbar-brand" href="#5" style="text-align:left;margin-left: 10px;">
-                        <img src="img\medicamento.svg" alt="medicamentos" width="40" height="40">
+                        <img src="<?php echo base_url('assets/img/medicamento.svg') ?>" alt="medicamentos" width="40" height="40">
                       </a>
                     </ul>
                         
                     <div class="dropdown pb-4">
                         <a href="#" style="margin-top:10px;" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="true">
-                            <img src="img\person-fill.svg" alt="hugenerd" width="30" height="30" class="rounded-circle">
+                            <img src="<?php echo base_url('assets/img/person-fill.svg')?>" alt="hugenerd" width="30" height="30" class="rounded-circle">
                             <span style="color: black;" class="d-none d-sm-inline mx-1">UsuarioLogado</span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark text-small shadow">

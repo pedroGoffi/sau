@@ -1,14 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
-    
+class Index extends CI_Controller {
+
     function __construct(){
         parent::__construct();
     }
-	public function index()
-	{
-        echo "ok <br>";
-		$this->load->view('Login');
-	}
+    public function index(){
+        $this->load->view('index');
+    }
 }
